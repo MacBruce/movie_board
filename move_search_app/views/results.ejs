@@ -1,0 +1,7 @@
+<h1>results page</h1>
+
+<% parsedData["Search"].forEach(function(movie) { %>
+    <li><%= movie["Title"] %> - <%= movie["Year"] %> </li>
+<%    }); %>
+
+<a href="/">Must go back?</a>
